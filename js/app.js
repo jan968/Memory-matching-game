@@ -153,7 +153,10 @@
         type: 'success',
         confirmButtonText: 'Go back to game'
     })
-        }
+        $('.swal2-confirm').on('click', function() {
+                location.reload();
+        });
+}
 
     $('#start').on('click', function() {
         timer();
