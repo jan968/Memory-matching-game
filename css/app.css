@@ -29,8 +29,57 @@ body {
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #02b3e3;
+}
+
+h2 {
+    padding-top: 110px;
+}
+
+.timer {
+    padding-left: 10px;
+}
+
+#start {
+    padding: 25px 45px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 auto 15px; 
+    border: 1px solid #02b3e3;
+    border-radius: 35px;
+    background: linear-gradient(to bottom right, #02b3e3, #02cbba);
+    color: #eee;
+}
+
+.scoreboard {
+    background: linear-gradient(to bottom right, #02b3e3, #02cbba);
+    color: #eee;
+    margin: 50px auto;
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.ghost-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background: #7FDBFF;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    color: #eee;
+}
+
+.scorePoint {
+    color: #01FF70;
 }
 
 /*
@@ -106,4 +155,68 @@ h1 {
 .score-panel .restart {
     float: right;
     cursor: pointer;
+}
+
+/*MEDIA QUERIES */
+
+@media screen and (max-width: 420px) {
+    ul.deck {
+        width: 320px;
+        min-height: 420px;
+        margin-bottom: 0;
+    }
+
+    .deck .card {
+        width: 60px;
+        height: 60px;
+    }
+
+    .container {
+        width: 315px !important;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    #start {
+        padding: 15px 35px;
+    }
+
+    .score-panel {
+        width: 250px;
+        margin: 0 auto 0;
+    }
+
+    .fa-repeat {
+        position: absolute;
+        top: 55px;
+        right: 20px;
+        padding: 24px;
+    }
+    
+    .ghost-btn {
+        padding: 5px 20px;  
+    }
+  }
+
+@media screen and (min-width: 421px) and (max-width: 720px)  {
+    ul.deck {
+        width: 400px;
+        min-height: 400px;
+        margin-bottom: 0;
+    }
+
+    .deck .card {
+        width: 70px;
+        height: 70px;
+    }
+
+    .fa-repeat {
+        position: absolute;
+        top: 65px;
+        padding: 20px;
+    }
+
 }

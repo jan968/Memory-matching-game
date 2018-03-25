@@ -1,20 +1,15 @@
 # Memory Game Project
-
+	Udacity project developed using  HTML, CSS, JS and JQuery.
+	
+	How To Play:
+	Your goal is to find all pairs, by clicking on the cards.
+	Every click on the card is considered 1 move.
+	When you find 8 pairs you win the game, and the scoreboard will appear.
+	Star rating tells you how many moves you made, meaning less mistakes
+	you do the higher the star rating will be. You can have maximum
+	of 3 stars, depends on how many moves you make the star rating will
+	go down all the way to 0. Timer is also added just to see how much time
+	you need to finish the game, however there is no time limit.
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
 
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
