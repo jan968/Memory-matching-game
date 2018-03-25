@@ -10,6 +10,6 @@
 	of 3 stars, depends on how many moves you make the star rating will
 	go down all the way to 0. Timer is also added just to see how much time
 	you need to finish the game, however there is no time limit.
-## Table of Contents
+
 
 
